@@ -1,0 +1,16 @@
+device: cuda
+
+dataset_name: mayo2016-180view
+
+train_X_folder_path: /data/DATA/yaoqiulei/mayo2016/processed/test/180-view
+train_y_folder_path: /data/DATA/yaoqiulei/mayo2016/processed/test/full_3mm 
+
+test_X_folder_path: /data/DATA/yaoqiulei/mayo2016/processed/test/180-view
+test_y_folder_path: /data/DATA/yaoqiulei/mayo2016/processed/test/full_3mm 
+
+use_wandb: False
+wandb_project: RobustMLProject
+
+ckpt_save_interval: 5
+log_print_interval: 1
+

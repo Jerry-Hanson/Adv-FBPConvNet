@@ -1,0 +1,12 @@
+lr: 5e-4
+weight_decay: 1e-5
+batch_size: 8
+num_workers: 8
+
+epoch: 100
+data_range: 1.1
+ckpt_save_folder: /data/DATA/yaoqiulei/RobustMLProject/FBPConvNet/ckpt
+log_save_folder: /data/DATA/yaoqiulei/RobustMLProject/FBPConvNet/log
+
+# 这个version代表模型的version，每一次修改模型都需要修改version
+version: 1
